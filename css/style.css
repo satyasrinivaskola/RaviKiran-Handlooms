@@ -14,18 +14,25 @@ header {
     background: linear-gradient(90deg, #3b2a20, #6b4f2c);
     color: #d4af37;
     padding: 18px;
+    
     position: sticky;
     top: 0
 }
-
+@media(min-width:375px){
+nav a:first-child{
+margin-left:0px;
+padding-left:0px;
+}
+}
 nav {
+
     margin-top: 10px
 }
 
 nav a {
     color: #f5deb3;
     text-decoration: none;
-    margin: 0 12px
+    margin: 0 10px
 }
 
 .hero {
